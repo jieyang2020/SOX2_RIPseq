@@ -3,13 +3,13 @@
 ## 0. Prerequsite
 
 ### Softwares
-[samtools](http://www.htslib.org/)
+[Samtools](http://www.htslib.org/)
 
-[fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
-[star](https://github.com/alexdobin/STAR)
+[STAR](https://github.com/alexdobin/STAR)
 
-[featureCounts](http://subread.sourceforge.net/)
+[FeatureCounts](http://subread.sourceforge.net/)
 
 ### Genome & annotation
 [Gencode vM16](https://www.gencodegenes.org/mouse/release_M16.html)\
