@@ -11,6 +11,8 @@
 
 [FeatureCounts](http://subread.sourceforge.net/)
 
+Additionally, download all the manual programs in the folder "Programs" in this github.
+
 ### Genome & annotation
 [Gencode vM16](https://www.gencodegenes.org/mouse/release_M16.html)\
 Select "comprehensive gene annotation as gtf".
