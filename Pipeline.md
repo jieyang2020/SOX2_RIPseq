@@ -1,5 +1,15 @@
 # RIP-seq pipeline
 
+## 0. Prerequsite
+
+### Softwares
+samtools[http://www.htslib.org/]
+fastqc[]
+star[]
+featureCounts[]
+
+### Genome & annotation
+
 ## 1. Fastq
 
 ### 1-1. Fastqc
