@@ -3,7 +3,7 @@
 ## 0. Prerequsite
 
 ### Softwares
-samtools[http://www.htslib.org/]
+samtools(http://www.htslib.org/)
 fastqc[]
 star[]
 featureCounts[]
