@@ -3,12 +3,14 @@
 ## 0. Prerequsite
 
 ### Softwares
-[samtools](http://www.htslib.org/)
-fastqc[]
-star[]
-featureCounts[]
+[samtools](http://www.htslib.org/)\
+[fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[star][https://github.com/alexdobin/STAR]
+[featureCounts](http://subread.sourceforge.net/)
 
 ### Genome & annotation
+[Gencode vM16](https://www.gencodegenes.org/mouse/release_M16.html)
+Select "comprehensive gene annotation".
 
 ## 1. Fastq
 
