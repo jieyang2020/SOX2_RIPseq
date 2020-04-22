@@ -45,12 +45,12 @@ This step removes PCR duplicates among uniquely-mapped reads.
 (1) Sort BAM by qname
 
 `samtools sort -@5 -n SAMPLE.Aligned.sortedByCoord.out.bam -o SAMPLE.nameSorted.bam`\
-Optionally, -@5 can be omitted if multiple threads (here the number of threads is 5) are not available.
+Optionally, -@5 should be omitted if multiple threads (here the number of threads is 5) are not available.
 
 (2) Remove PCR duplicates 
 
 `samtools view -h -q 255 SAMPLE.nameSorted.bam | python dedupped.py | samtools view -Sb - | samtools sort -@5 - > SAMPLE.uniq.dedupped.bam`\
-Optionally, -@5 can be omitted if multiple threads (here the number of threads is 5) are not available.
+Optionally, -@5 should be omitted if multiple threads (here the number of threads is 5) are not available.
 
 ## 3. Count
 This step counts sequencing reads in gene body across genomes.
