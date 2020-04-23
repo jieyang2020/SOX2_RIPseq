@@ -22,7 +22,7 @@ Select "comprehensive gene annotation as gtf".
 ### 1-1. Fastqc
 Check quality by running fastqc.
 
-### 1-2. Add UMI to read 1 and 2
+### 1-2. Add UMI information to read 1 file and read 2 file.
 `umiToQname2 Read1.fastq.gz UMI.fastq.gz Read2.fastq.gz SAMPLE`\
 Read1.fastq.gz: Read 1 file of paired-end sequencing.\
 UMI.fastq.gz: UMI read file.\
