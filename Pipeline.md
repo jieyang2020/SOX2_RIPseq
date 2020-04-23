@@ -27,7 +27,7 @@ Check quality by running fastqc.
 Read1.fastq.gz: Read 1 file of paired-end sequencing\
 UMI.fastq.gz: UMI read file\
 Read2.fastq.gz: Read 2 file of paired-end sequencing\
-SAMPLE: output file prefix\
+SAMPLE: output file prefix
 
 This generates two files named SAMPLE.R1.fastq.gz and SAMPLE.R2.fastq.gz.
 
