@@ -61,7 +61,7 @@ This step removes PCR duplicates among uniquely-mapped reads.
 "-@5" should be omitted if multiple threads (here the number of threads is 5) are not available.
 
 ## 3. Count
-This step counts sequencing reads in gene body across genomes.
+This step counts sequencing reads in gene bodies across genome.
 
 `featureCounts SAMPLE.uniq.dedupped.bam -a ANNOTATION.gtf -p -s 1 -t gene -o SAMPLE.fCounts`
 
