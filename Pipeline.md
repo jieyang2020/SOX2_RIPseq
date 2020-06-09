@@ -25,7 +25,7 @@ Check quality by running fastqc.
 ### 1-2. Add UMI information to read 1 file and read 2 file.
 Add UMI to header in fastq. The resulting header will have format of [PASS/FAIL]:[UMI]::[orginal qname]. If any nucletodie in UMI has quality lower than 10, I put FAIL, otherwise PASS.
 
-`umiToQname2 Read1.fastq.gz UMI.fastq.gz Read2.fastq.gz SAMPLE`\
+`umiToQname2 Read1.fastq.gz Read2.fastq.gz UMI.fastq.gz SAMPLE`\
 Read1.fastq.gz: Read 1 file of paired-end sequencing.\
 UMI.fastq.gz: UMI read file.\
 Read2.fastq.gz: Read 2 file of paired-end sequencing.\
